@@ -6,6 +6,7 @@ This repository will hold all the code I write in the Free Code Camp Responsive 
 ### - Camper Cafe Menu
 ### - CSS Coloured Markers
 ### - Survey Form(Certification Course)
+### - Tribute Page(Certification Course)
 ### - Product Landing Page(Certification Course)
 
 ## Cat Photo App Webpage
@@ -20,12 +21,16 @@ This repository will hold all the code I write in the Free Code Camp Responsive 
 
 ### In this course, I utilized different CSS applications to create a set of coloured markers.
 
-## Survey Form
+## Survey Form(Certification Course)
 
-### I
+### 
 
-## Product Landing Page
+## Tribute Page(Certification Course)
 
-### I
+### 
+
+## Product Landing Page(Certification Course)
+
+### 
 
 
