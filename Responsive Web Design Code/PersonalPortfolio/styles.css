@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font: arial;
+}
+
+#navbar {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-image: url('https://wallpaperaccess.com/full/796845.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+  color: white; 
+}
+
+#welcome-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: gold; 
+  margin-bottom: 1rem; 
+  text-shadow: 2px 2px 4px white; 
+}
+
+#welcome-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem; 
+  text-shadow: 1px 1px 2px white; 
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.rem;
+  color: white; 
+  margin: 0 auto;
+  max-width: 80%;
+  text-shadow: 1px 1px 2px white;
+  border: 2px solid gold; 
+  padding: 1rem;
+}
+
+#projects {
+  padding: 2rem;
+}
+
+.project-tile {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.project-tile h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.project-tile p {
+  font-size: 1rem;
+}
+
+.project-tile a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  #navbar {
+    padding: 0.5rem;
+  }
+
+  .project-tile {
+    padding: 0.5rem;
+  }
+}
